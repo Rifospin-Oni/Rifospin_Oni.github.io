@@ -1,0 +1,59 @@
+ @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inika:wght@700&family=Inter:wght@700&family=REM:wght@600&display=swap');
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+
+.tabloid
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 600px;
+    border: solid rgb(255, 73, 121) 10px;
+    border-radius: 10%;
+    background-image: url(image.png);
+    transition: 1s;
+    font-family: 'Inika', serif;
+    font-size: 120px;
+    color: rgb(144, 113, 255);
+    align-content: center;
+    justify-content: center;
+}
+.tabloid:hover
+{
+    filter: blur(4px)
+}
+.button
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 100px;
+    border: solid rgb(255, 73, 121) 10px;
+    border-radius: 10px;
+    font-family: 'Inika', serif;
+    font-size: 120px;
+    align-content: center;
+    justify-content: center;
+    transition: 0.25s;
+    color: blueviolet;
+}
+.button:hover
+{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(255, 185, 188);
+}
+.button:active
+{
+    background: rgb(76,0,255);
+background: linear-gradient(90deg, rgba(76,0,255,1) 3%, rgba(249,116,246,1) 96%);
+color: azure;
+}
